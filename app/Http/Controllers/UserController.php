@@ -98,7 +98,7 @@ class UserController extends Controller
     {
         $parameters = [
             'client_id' => env('GOOGLE_CLIENT_ID'),
-            'redirect_uri' => env('GOOGLE_CLIENT_ID'),
+            'redirect_uri' => env('GOOGLE_REDIRECT_URI'),
             'response_type' => 'code',
             'scope' => 'email profile',
             'access_type' => 'offline',
