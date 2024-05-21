@@ -48,10 +48,10 @@ class UserSeeder extends Seeder
 
         User::create([
             'id' => '5',
-            'name' => 'User',
+            'name' => 'Bisma',
             'email' => 'bisma@gmail.com',
             'password' => bcrypt('bisma'),
-            'role' => 'bisma',
+            'role' => 'user',
         ]);
 
         User::factory()->count(3)->create();
